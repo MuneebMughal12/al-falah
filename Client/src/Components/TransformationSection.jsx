@@ -45,10 +45,10 @@ export default function TransformationSection() {
                         </div>
 
                         {/* Cards OVER image (only on large screens) */}
-                     
+
                         <div className="hidden lg:block">
                             {/* Card 1 (LEFT - DOWN) */}
-                            <div className="absolute -left-[610px] top-[280px] w-[420px]">
+                            <div className="absolute overflow-hidden -left-[510px] top-[280px] w-[260px]">
                                 <FeatureCard
                                     tone="green"
                                     title="Boost your Islamic knowledge"
@@ -58,7 +58,7 @@ export default function TransformationSection() {
                             </div>
 
                             {/* Card 2 (MIDDLE - UP) */}
-                            <div className="absolute left-[-150px] top-[280px] w-[260px]">
+                            <div className="absolute  overflow-hidden left-[-180px] top-[280px] w-[260px]">
                                 <FeatureCard
                                     tone="red"
                                     title="Speak Arabic, Confidently!"
@@ -68,7 +68,7 @@ export default function TransformationSection() {
                             </div>
 
                             {/* Card 3 (RIGHT - UP) */}
-                            <div className="absolute right-[200px] top-[280px] w-[220px]">
+                            <div className="absolute right-[200px] top-[280px] w-[260px]">
                                 <FeatureCard
                                     tone="purple"
                                     title="Recite & Memorize Quran"
