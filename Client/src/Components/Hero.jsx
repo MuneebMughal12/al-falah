@@ -86,19 +86,7 @@ export default function Hero() {
           />
         </svg>
       </div>
-      <div className="hidden md:block pointer-events-none absolute left-0 md:top-[34rem] w-full">
-        <svg viewBox="0 0 1440 120" className="w-full" aria-hidden="true">
-        
-          <path
-            d="M0,70 C260,30 420,110 720,75 C1020,40 1240,90 1440,65"
-            fill="none"
-            stroke="#b64323"
-            strokeWidth="10"
-            strokeLinecap="round"
-            opacity="0.9"
-          />
-        </svg>
-      </div>
+   
     </section>
     
   );

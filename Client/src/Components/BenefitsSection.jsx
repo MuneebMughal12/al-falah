@@ -7,7 +7,6 @@ export default function BenefitsSection() {
       desc:
         "Our experienced Quran tutors focus on correct recitation, understanding, and character development, helping students apply Quranic teachings in daily life.",
       icon: <IconTutor />,
-      // ✅ top row right card #1 (peach default in screenshot)
       span: "lg:col-start-3 lg:row-start-1",
       defaultPeach: false,
     },
@@ -69,7 +68,7 @@ export default function BenefitsSection() {
       </div>
 
 
-      <div className="relative mx-auto max-w-7xl px-4">
+      <div className="relative mx-auto max-w-7xl px-4 md:px-10">
         {/* ✅ grid format exactly like screenshot */}
         <div className="grid gap-8 lg:grid-cols-4 lg:grid-rows-2">
           {/* LEFT TEXT BLOCK (Top-left area) */}

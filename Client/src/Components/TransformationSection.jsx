@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TransformationSection() {
     return (
-        <section className="bg-[#f7eeea]">
+        <section className="bg-[#f7eeea] pr-8 pl-8">
             <div className="mx-auto max-w-7xl px-4 py-14 md:py-20">
                 <div className="grid gap-10 lg:grid-cols-2 items-start">
                     {/* LEFT CONTENT */}
@@ -45,10 +45,10 @@ export default function TransformationSection() {
                         </div>
 
                         {/* Cards OVER image (only on large screens) */}
-
-                        <div className="hidden xl:block">
+                     
+                        <div className="hidden lg:block">
                             {/* Card 1 (LEFT - DOWN) */}
-                            <div className="absolute -left-[540px] top-[250px] w-[420px]">
+                            <div className="absolute -left-[610px] top-[280px] w-[420px]">
                                 <FeatureCard
                                     tone="green"
                                     title="Boost your Islamic knowledge"
@@ -58,7 +58,7 @@ export default function TransformationSection() {
                             </div>
 
                             {/* Card 2 (MIDDLE - UP) */}
-                            <div className="absolute left-[-40px] top-[210px] w-[360px]">
+                            <div className="absolute left-[-150px] top-[280px] w-[260px]">
                                 <FeatureCard
                                     tone="red"
                                     title="Speak Arabic, Confidently!"
@@ -68,7 +68,7 @@ export default function TransformationSection() {
                             </div>
 
                             {/* Card 3 (RIGHT - UP) */}
-                            <div className="absolute right-[-200px] top-[210px] w-[420px]">
+                            <div className="absolute right-[200px] top-[280px] w-[220px]">
                                 <FeatureCard
                                     tone="purple"
                                     title="Recite & Memorize Quran"

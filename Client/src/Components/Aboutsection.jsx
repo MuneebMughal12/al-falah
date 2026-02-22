@@ -36,7 +36,7 @@ export default function AboutSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative overflow-hidden bg-white py-16 md:py-24"
+      className="relative overflow-hidden bg-white py-16 md:py-24 pr-5 "
     >
       {/* Right big circle line (decor) */}
       <div className="pointer-events-none absolute -right-40 top-10 h-[520px] w-[520px] rounded-full border border-black/10" />
@@ -48,7 +48,7 @@ export default function AboutSection() {
       <div className="relative mx-auto max-w-7xl px-4">
         <div className="grid items-start gap-10 lg:grid-cols-[520px_1fr]">
           {/* LEFT COLUMN */}
-          <div className="relative">
+          <div className="relative pl-5">
             {/* Image card */}
             <div className="overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-black/10">
               <img
@@ -59,7 +59,7 @@ export default function AboutSection() {
             </div>
 
             {/* ✅ Replaced icon with image */}
-            <div className="absolute -left-7 bottom-60 hidden md:block">
+            <div className="absolute  bottom-60 hidden md:block">
               <img
                 src="/images/book.png"   // <-- change this path to your image
                 alt="Book"
